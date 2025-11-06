@@ -2,9 +2,9 @@ using Moq;
 using UniversiteDomain.DataAdapters;
 using UniversiteDomain.DataAdapters.DataAdaptersFactory;
 using UniversiteDomain.Entities;
-using UniversiteDomain.UseCases.EtudiantDansParcours;
-using UniversiteDomain.UseCases.EtudiantUseCases;
 using UniversiteDomain.UseCases.ParcoursUseCases;
+using UniversiteDomain.UseCases.ParcoursUseCases.EtudiantDansParcours;
+using UniversiteDomain.UseCases.ParcoursUseCases.Create;
 
 namespace UniversiteDomainUnitTests;
 

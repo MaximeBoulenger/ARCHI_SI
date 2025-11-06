@@ -1,6 +1,8 @@
 ﻿namespace UniversiteDomain.Exceptions.ParcoursExceptions;
 
-public class EtudiantNotFoundException
+public class EtudiantNotFoundException : Exception
 {
-    
+    public EtudiantNotFoundException() : base() { }
+    public EtudiantNotFoundException(string message) : base(message) { }
+    public EtudiantNotFoundException(string message, Exception innerException) : base(message, innerException) { }
 }
