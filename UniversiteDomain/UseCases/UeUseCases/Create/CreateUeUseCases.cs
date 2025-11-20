@@ -8,7 +8,7 @@ public class CreateUeUseCase(IUeRepository ueRepository)
 {
     public async Task<Ue> ExecuteAsync(string numeroUe,  string intitule)
     {
-        var ue = new Ue {  NumeroUe = numeroUe, Intitule = intitule };
+        var ue = new Ue { NumeroUe = numeroUe, Intitule = intitule };
         return await ExecuteAsync(ue);
     }
 
